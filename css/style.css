@@ -1,0 +1,87 @@
+a, a:link, a:visited, a:active {
+    color: white;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: bisque;
+}
+
+#background {
+    background-color: black;
+    min-height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#content-container {
+    /* Alignment stuff */
+    
+    /* Background stuff */
+    
+    /* Text stuff */
+    color: white;
+}
+
+#title {
+    text-align: center;
+    padding: 10px;
+    font-size: 14vw;
+}
+
+#icon-box {
+    text-align: center;
+    min-height: 100px;
+}
+
+#description {
+    padding: 10px;
+    text-align: center;
+    font-size: 2vw;
+    text-shadow: 3px 3px 0px #000;
+}
+
+#temp {
+    text-align: center;
+    font-size: 3vw;
+}
+
+#who-link {
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+}
+
+@media screen and (min-width: 480px) {
+    
+    #quote-box {
+        max-width: 800px;
+    }
+    
+    #title {
+        font-size: 7vw;
+    }
+    
+    #quote {
+        font-size: 3.5vw;
+    }
+    
+    #author {
+        font-size: 4.5vw;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    #title {
+        font-size: 70px;
+    }
+    
+    #quote {
+        font-size: 30px;
+    }
+    
+    #author {
+        font-size: 40px;
+    }
+}
