@@ -32,25 +32,38 @@ a:hover {
 }
 
 #icon-box {
+    height: 200px;
     text-align: center;
     min-height: 100px;
+    background-size: auto;
+    max-height: 100%;
 }
 
 #description {
     padding: 10px;
     text-align: center;
-    font-size: 2vw;
+    font-size: 5vw;
     text-shadow: 3px 3px 0px #000;
 }
 
 #temp {
     text-align: center;
-    font-size: 3vw;
+    font-size: 5vw;
+}
+
+#degree-change {
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 2vw;
 }
 
 #who-link {
+    position: absolute;
+    bottom: 0px;
     font-family: 'EB Garamond', serif;
     text-align: center;
+    width: 100%;
 }
 
 @media screen and (min-width: 480px) {
