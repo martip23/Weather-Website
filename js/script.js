@@ -43,7 +43,7 @@ $(document).ready(function () {
             tempUnits = 'C';
         } else {
             $("#temp").html(tempF + '&degF');
-            $("#degree-change").html("To celcius");
+            $("#degree-change").html("To celsius");
             tempUnits = 'F';
         }
             
