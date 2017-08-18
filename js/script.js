@@ -39,11 +39,11 @@ $(document).ready(function () {
     $("#degree-change").on("click", function () {
         if (tempUnits === 'F') {
             $("#temp").html(tempC + '&degC');
-            $("#degree-change").html("To fahrenheit");
+            $("#degree-change").html("To Fahrenheit");
             tempUnits = 'C';
         } else {
             $("#temp").html(tempF + '&degF');
-            $("#degree-change").html("To celsius");
+            $("#degree-change").html("To Celsius");
             tempUnits = 'F';
         }
             
